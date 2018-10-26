@@ -1,5 +1,3 @@
-                                                             MiniCAD-2D
-                                                             
     NUME: SOARE ION-ALEXANDRU
     UNIVERSITATEA: POLITEHNICA DIN BUCURESTI
     FACULTATEA: AUTOMATICA SI CALCULATOARE, SECTIA CTI
