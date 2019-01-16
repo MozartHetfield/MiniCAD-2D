@@ -9,6 +9,7 @@
 Proiectul cuprinde 14 clase si 3 interfete, grupate toate in pachetul
 forms, cu exceptia clasei Main, dorita separat datorita enuntului. Voi prezenta
 intreg decursul Main-ului, oprind pentru a detalia ce necesita explicatii suplimentare.
+	
 	Main-ul debuteaza cu 3 obiecte din clase de tipul Singleton Pattern,
 si anume: ShapeFactory, DrawFigure si FillFigure, urmate de un scanner
 si de o variabila de tip File care va reprezenta output-ul dorit. Cu ajutorul
@@ -32,7 +33,8 @@ cere prin for, se verifica ce tip de forma este, prin intermediul primului strin
 biect de tipul respectiv cu ajutorul creator-ului, fiindu-i atribuite atri-
 butiile prin constructor. Utilizarea constructorului este datorata usurintei
 si scrierii compacte a codului, evitand, astfel, o inlantuire de setteri.
-	Dupa atribuire, se foloseste pattern-ul visitor, unde accepta drawer-ul.
+			
+			Dupa atribuire, se foloseste pattern-ul visitor, unde accepta drawer-ul.
 Mecanismul pentru transpunerea formelor pe imagine este de a umple o matrice
 statica (din clasa ShapeClasS), de dimensiunile Canvas-ului, pe care o vom
 altera prin fiecare forma, intrucat fiecare forma extinde clasa ShapeClass.
@@ -45,13 +47,15 @@ aceea, se va completa cu 13 tot interiorul formei, pentru a completa
 culoarea cu functia fill, apelata de acelasi Canvas. De asemenea,
 la inceputul for-ului, se umple iar matricea cu 0-uri, pentru a nu interpune
 desenarea/umplerea simultana a doua sau mai multe forme.
-	Este folosita interfata Shape, ce extinde Visitable pentru ca fiecare 
+	
+		Este folosita interfata Shape, ce extinde Visitable pentru ca fiecare 
 forma sa poata sa fie apelata de un visitor (drawer si filler). Draw-ul are
 o metode de visit pentru fiecare forma. Line si Circle prezinta implemen-
 tari de pe site, iar restul se bazeaza pe trasarea mai multor linii. De specificat
 este ca poligonul are in clasa sa doi vectori ce reprezinta coordonatele X, respectiv Y
 ale punctelor, grupate impreuna dupa indicii comuni (coordonateX[i], coordonateY[i]),
 iar punctul de pornire pentru fill este media lor aritmetica.
-	Algoritmul de fill foloseste Queue, datorita complexitatii ridicate de care
+	
+		Algoritmul de fill foloseste Queue, datorita complexitatii ridicate de care
 dispune in cazul recursivitatii. Clasa Point este auxiliara, folosind un
 singur obiect de tip Point(x,y) pentru stocarea coordonatelor.  
