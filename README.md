@@ -1,10 +1,4 @@
-    NUME: SOARE ION-ALEXANDRU
-    UNIVERSITATEA: POLITEHNICA DIN BUCURESTI
-    FACULTATEA: AUTOMATICA SI CALCULATOARE, SECTIA CTI
-    GRUPA SI SERIA: 323, CD
-    ANUL UNIVERSITAR: 2017-2018
-
------------------	 TEMA 2 - MINI AUTOCAD	 -----------------
+----------------- MINI AUTOCAD -----------------
 
 Proiectul cuprinde 14 clase si 3 interfete, grupate toate in pachetul
 forms, cu exceptia clasei Main, dorita separat datorita enuntului. Voi prezenta
